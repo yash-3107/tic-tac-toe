@@ -1,0 +1,14 @@
+.grid{
+        display:flex;
+        flex-wrap: wrap;
+        width:400px;
+        height :400px;
+        justify-content: space-between;
+        align-items: space-between;
+    
+    }
+    .turn{
+        color: aliceblue;
+        letter-spacing: 2px;
+        
+    }
