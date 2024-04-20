@@ -1,14 +1,15 @@
-.grid{
+.table{
         display:flex;
         flex-wrap: wrap;
         width:400px;
         height :400px;
         justify-content: space-between;
         align-items: space-between;
+        
     
     }
-    .turn{
-        color: aliceblue;
+    .turn,.declaration{
+        color: rgb(255, 255, 255);
         letter-spacing: 2px;
         
     }

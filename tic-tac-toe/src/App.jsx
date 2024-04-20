@@ -1,6 +1,6 @@
-import Grid from "./components/grid/grid"
+import Grid from "./components/grid/grid.jsx"
 import './App.css'
-import Cards from "./components/cards/cards"
+
 function App() {
   
 

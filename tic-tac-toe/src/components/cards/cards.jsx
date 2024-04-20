@@ -1,13 +1,13 @@
 import "./cards.css"
-import Icons from "../icons/icons"
-function Cards({name}){
-    let icon = <Icons/>;
-    if (name == "cross")
-       icon = <Icons player = "X"/>;
-    else if(name == "circle")
-       icon = <Icons player = "O"/>;
+import Icons from "../icons/icons.jsx"
+function Cards({value,onClick,index}){
+    let icon = <Icons />;
+    if (value === "X")
+       icon = <Icons player = "X" />;
+    else if(value === "O")
+       icon = <Icons player = "O" />;
     return (
-        <div className="cards">
+        <div className="cards" onClick = {() => {onClick(index)}}>
             {icon}
         </div>);
 
